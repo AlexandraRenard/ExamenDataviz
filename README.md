@@ -1,6 +1,7 @@
 ##  LA VIE EN VERT !
-https://github.com/AlexandraRenard/ExamenDataviz/issues/1#issue-796387794
-Pour ce devoir, j'ai décidé de choisir le sujet autour de la végétation parisienne. J'ai trouvé l'idée et l'un des jeux de données sur Opendatasoft.
+![alt tag](https://github.com/AlexandraRenard/ExamenDataviz/issues/1#issue-796387794)
+
+L'image Pour ce devoir, j'ai décidé de choisir le sujet autour de la végétation parisienne. J'ai trouvé l'idée et l'un des jeux de données sur Opendatasoft.
 
 # Visualisation des données : utilisation de l'outils Cartes 
 
