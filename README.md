@@ -2,7 +2,9 @@
 
 ![alt tag] (https://github.com/AlexandraRenard/ExamenDataviz/issues/1#issue-796387794)
 
- Pour ce devoir, j'ai décidé de choisir le sujet autour de la végétation parisienne. J'ai trouvé l'idée et l'un des jeux de données sur Opendatasoft.
+# Introduction
+Cette page Github a été créé par moi-même (Alexandra Renard) lors du Master 2 DEFI pour l'examen final du cours de Datavisualition de Monsieur Courtin. 
+Comme souvent répété en cours, le plus important ce sont le thème choisi et les jeux de données. J'ai eu du mal à trouver des jeux de données car soit ils étaient compliqués à utiliser soit n'étaient pas à mon gpût (thématique). Après de nombreuses recherches sur data.gouv, data.gouv.culture et opendatasoft, j'ai finalment trouvé un jeux de données sur ce dernier. Après avoir choisi un jeu de données sur "les arbres" , je me suis dirigée vers le sujet autour de la végétation parisienne et rennaise. 
 
 # Visualisation des données : utilisation de l'outils Cartes 
 
