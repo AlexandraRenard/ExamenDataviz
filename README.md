@@ -8,6 +8,8 @@ Comme souvent répété en cours, le plus important ce sont le thème choisi et 
 
 Après avoir choisi un jeu de données sur "les arbres" , je me suis dirigée vers le sujet autour de la végétation parisienne et rennaise. 
 ![alt tag](https://user-images.githubusercontent.com/77047183/106200477-54876180-61b7-11eb-87c2-9b2808cc96c5.jpg)
+_Source: Un projet de réaménagement des Champs-Elysées est à l’étude. Il prévoit de faire une large place aux jardins et à la végétation. PCA-STREAM, Le Parisien, 11 Janvier 2021_ Lien : https://www.leparisien.fr/paris-75/paris-anne-hidalgo-promet-un-jardin-extraordinaire-sur-les-champs-elysees-11-01-2021-8418444.php
+
 
 # Visualisation des données : utilisation de l'outils Cartes 
 
