@@ -34,12 +34,33 @@ Résumé des manipulations : Ajout du jeux de données "Les arbres", modificatio
 
 ### Comparaison et analyse 
 
-Après avoir eu une vue d'ensemble de ces deux jeux de données, nous pouvons voir 
+Après avoir eu une vue d'ensemble de ces deux jeux de données, nous pouvons voir observer que l'on retrouve d'important clusters dans Paris et ses environs. 
+Cependant, cela est assez logique compte tenu de la superficie différente avec Rennes.
+J'ai voulu connaitre la superficie de Paris et de Rennes. Pour se faire, j'ai utilisé l'outils Wiki Data Query Service. Ma requête :
+SELECT ?commune ?communeLabel ?pop ?area ?density
+WHERE 
+{
+  ?commune wdt:P31 wd:Q484170 .
+  ?commune wdt:P1082 ?pop .
+  ?commune wdt:P2046 ?area 
+  FILTER (?pop > 200000)
+  BIND( (?pop / ?area) as ?density )
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr,en". }
+}
+ORDER BY DESC(?density)
+
+Le résultat montre que la ville de Rennes a une superficie de 50.39 Km2 et que celle de Paris est de 105.40 Km2. Paris est deux fois plus grand que Rennes, ainsi cela ne parait pas sureprenant qu'il y ait 2 fois plus de végétation. Car pour avoir de la végétation, il faut de l'espace.
 
 # Visualisation des données : utilisation de l'outils Analyse sur Opendatasoft 
 
 Après avoir eu une vue d'ensemble
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/les-arbres@parisdata/analyze/?disjunctive.typeemplacement&disjunctive.arrondissement&disjunctive.libellefrancais&disjunctive.genre&disjunctive.espece&disjunctive.varieteoucultivar&disjunctive.stadedeveloppement&disjunctive.remarquable&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6Imxlcy1hcmJyZXNAcGFyaXNkYXRhIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS50eXBlZW1wbGFjZW1lbnQiOnRydWUsImRpc2p1bmN0aXZlLmFycm9uZGlzc2VtZW50Ijp0cnVlLCJkaXNqdW5jdGl2ZS5saWJlbGxlZnJhbmNhaXMiOnRydWUsImRpc2p1bmN0aXZlLmdlbnJlIjp0cnVlLCJkaXNqdW5jdGl2ZS5lc3BlY2UiOnRydWUsImRpc2p1bmN0aXZlLnZhcmlldGVvdWN1bHRpdmFyIjp0cnVlLCJkaXNqdW5jdGl2ZS5zdGFkZWRldmVsb3BwZW1lbnQiOnRydWUsImRpc2p1bmN0aXZlLnJlbWFycXVhYmxlIjp0cnVlfX0sImNoYXJ0cyI6W3siYWxpZ25Nb250aCI6dHJ1ZSwidHlwZSI6InBpZSIsImZ1bmMiOiJBVkciLCJ5QXhpcyI6ImlkYmFzZSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLVNwZWN0cmFsIiwicG9zaXRpb24iOiJjZW50ZXIifV0sInhBeGlzIjoiZG9tYW5pYWxpdGUiLCJtYXhwb2ludHMiOjUwLCJzb3J0IjoiIiwic2VyaWVzQnJlYWtkb3duIjoiIiwic2VyaWVzQnJlYWtkb3duVGltZXNjYWxlIjoiIn1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
+
+# Visualisation des données : utilisation de l'outils Open REfine 
+
+Manipulations : 
+- Ajout des maires par villes 
+- Changement de nom de la colonne "Dominialité" par "Domaine Public".
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
