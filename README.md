@@ -36,7 +36,9 @@ Résumé des manipulations : Ajout du jeux de données "Les arbres", modificatio
 
 Après avoir eu une vue d'ensemble de ces deux jeux de données, nous pouvons voir observer que l'on retrouve d'important clusters dans Paris et ses environs. 
 Cependant, cela est assez logique compte tenu de la superficie différente avec Rennes.
-J'ai voulu connaitre la superficie de Paris et de Rennes. Pour se faire, j'ai utilisé l'outils Wiki Data Query Service. Ma requête :
+J'ai voulu connaitre la superficie de Paris et de Rennes. Pour se faire, j'ai utilisé l'outils Wiki Data Query Service. 
+Ma requête :
+'''SPARQL
 SELECT ?commune ?communeLabel ?pop ?area ?density
 WHERE 
 {
