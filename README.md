@@ -61,8 +61,9 @@ Après avoir eu une vue d'ensemble
 # Visualisation des données : utilisation de l'outils Open REfine 
 
 Manipulations : 
-- Ajout des maires par villes 
+- Ajout la durée de vie des arbres. 
 - Changement de nom de la colonne "Dominialité" par "Domaine Public".
+- Dans l'onglet Grouper et éditer j'ai tenté de voir si je pouvais regrouper des informations. Cependant Open Refine n'avait aucune proposition à me faire. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
