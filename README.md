@@ -62,8 +62,10 @@ Voici le rendu du graphique :
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/les-arbres@parisdata/analyze/?disjunctive.typeemplacement&disjunctive.arrondissement&disjunctive.libellefrancais&disjunctive.genre&disjunctive.espece&disjunctive.varieteoucultivar&disjunctive.stadedeveloppement&disjunctive.remarquable&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6Imxlcy1hcmJyZXNAcGFyaXNkYXRhIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS50eXBlZW1wbGFjZW1lbnQiOnRydWUsImRpc2p1bmN0aXZlLmFycm9uZGlzc2VtZW50Ijp0cnVlLCJkaXNqdW5jdGl2ZS5saWJlbGxlZnJhbmNhaXMiOnRydWUsImRpc2p1bmN0aXZlLmdlbnJlIjp0cnVlLCJkaXNqdW5jdGl2ZS5lc3BlY2UiOnRydWUsImRpc2p1bmN0aXZlLnZhcmlldGVvdWN1bHRpdmFyIjp0cnVlLCJkaXNqdW5jdGl2ZS5zdGFkZWRldmVsb3BwZW1lbnQiOnRydWUsImRpc2p1bmN0aXZlLnJlbWFycXVhYmxlIjp0cnVlfX0sImNoYXJ0cyI6W3siYWxpZ25Nb250aCI6dHJ1ZSwidHlwZSI6InBpZSIsImZ1bmMiOiJBVkciLCJ5QXhpcyI6ImlkYmFzZSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLVNwZWN0cmFsIiwicG9zaXRpb24iOiJjZW50ZXIifV0sInhBeGlzIjoiZG9tYW5pYWxpdGUiLCJtYXhwb2ludHMiOjUwLCJzb3J0IjoiIiwic2VyaWVzQnJlYWtkb3duIjoiIiwic2VyaWVzQnJlYWtkb3duVGltZXNjYWxlIjoiIn1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 
 
-Légende
+Légende :
+
 _(Dans l'ordre décroissant)_
+
 1.Couleur rouge foncée: 3,4 % = Cimetière 
 2. Couleur bleu clair : 7,3% = Périphérique 
 3. Couleur bordeau : 7,5% = Alignement _(arbres alignés à la suite les uns des autres)_ 
@@ -74,7 +76,9 @@ _(Dans l'ordre décroissant)_
 8. Couleur orange clair : 18% = DASES _(Direction de l'Action Sociale de l'Enfance et de la Santé )_
 9. Couleur corail : 20,1% = DAC 
 
+
 Ma première remarque face à cette analyse est le manque de légende face à ces acronymes. Le lecteur doit faire la recherche ainsi ce n'est pas lisible et compréhensible rapidement. 
+
 # Visualisation des données : utilisation de l'outils Open REfine 
 
 Manipulations : 
