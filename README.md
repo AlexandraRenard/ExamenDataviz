@@ -38,7 +38,8 @@ Après avoir eu une vue d'ensemble de ces deux jeux de données, nous pouvons vo
 Cependant, cela est assez logique compte tenu de la superficie différente avec Rennes.
 J'ai voulu connaitre la superficie de Paris et de Rennes. Pour se faire, j'ai utilisé l'outils Wiki Data Query Service. 
 Ma requête :
-'''SPARQL
+
+````spaql
 SELECT ?commune ?communeLabel ?pop ?area ?density
 WHERE 
 {
@@ -50,7 +51,7 @@ WHERE
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr,en". }
 }
 ORDER BY DESC(?density)
-
+````
 Le résultat montre que la ville de Rennes a une superficie de 50.39 Km2 et que celle de Paris est de 105.40 Km2. Paris est deux fois plus grand que Rennes, ainsi cela ne parait pas sureprenant qu'il y ait 2 fois plus de végétation. Car pour avoir de la végétation, il faut de l'espace.
 
 # Visualisation des données : utilisation de l'outils Analyse sur Opendatasoft 
