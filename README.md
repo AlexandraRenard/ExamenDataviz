@@ -15,7 +15,7 @@ _Source: Un projet de réaménagement des Champs-Elysées est à l’étude. Il 
 
 # Visualisation des données : utilisation de l'outils Cartes sur Opendatasoft
 
-1. La vie en vert au sein du Grand Paris 
+**1. La vie en vert au sein du Grand Paris **
 
 Pour commencer à aborder ce sujet, j'ai fait le choix d'avoir une vie d'ensemble de ces données en utilisant l'outil Carte sur Opendatasoft. 
 Nous allons débuter par observer la végétation dans la ville de Paris. Le jeu de données choisi se nomme "Les arbres. 
@@ -25,7 +25,7 @@ Ce visuel est une carte. J'ai choisi l'affichage Cluster (Les données sont regr
 
 Résumé des manipulations : Ajout du jeux de données "Les arbres", modification de l'affichage et de la couleur.
 
-2. La vie en vert à Rennes 
+**2. La vie en vert à Rennes **
 
 Cette carte a été faite sur Opendatasoft. Le jeu de données se nomme _"Arbres d'ornement des espaces verts de la Ville de Rennes"_. La source provient de _Rennes-Metropole_ et a pour producteur la Ville de Rennes.Elle date du 28 Janvier 2021.
 <iframe frameborder="0" width="700" height="300" src="https://data.opendatasoft.com/map/embed/vegetation_a_rennes/?&static=false&scrollWheelZoom=false"></iframe>
@@ -64,7 +64,9 @@ Voici le rendu du graphique :
 
 Légende :
 
+
 _(Dans l'ordre décroissant)_
+
 
 1.Couleur rouge foncée: 3,4 % = Cimetière 
 2. Couleur bleu clair : 7,3% = Périphérique 
