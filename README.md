@@ -79,13 +79,23 @@ _(Dans l'ordre décroissant)_
 9. Couleur corail : 20,1% = DAC _(Direction des Affaires Culturelles)_
 
 
-Ma première remarque face à cette analyse est le manque de légende face à ces acronymes. Le lecteur doit faire la recherche ainsi ce n'est pas lisible et compréhensible rapidement. 
+Ma première remarque face à cette analyse est le manque de légende face à ces acronymes. Le lecteur doit faire la recherche ainsi ce n'est pas lisible et compréhensible rapidement. De plus, certains descripteurs sont écrits en majuscules et d'autres en minuscules. Pour les acronymes sera est assez logique mais pour les termes "périphérique" et "cimetière" cela peut penser à une erreur. 
 
-# Visualisation des données : utilisation de l'outils Open REfine 
+Suite à cette remarque, le point  positif est que dans l'onglet "Informations", il y a un lien qui est mis à disposition pour avoir plus de renseignements. Ce lien renvoie au site de Paris avec pour titre ("L'arbre à Paris")[https://www.paris.fr/pages/l-arbre-a-paris-199]. Il est souvent mise à jour, la dernière datant du 22/01/2021.
+
+Par la suite, lorsque nous avons les informations nécéssaire, on peut voir que la majorité des arbres sont localisés dans des sites culturelles/patrimoniaux mais aussi dans des lieux scolaires ou autres équipements municipaux. Les taux d'arbres dans les jardins ou alignés sont assez faibles au sein du Grand Paris. 
+
+
+Manipulations faites : Chois des axes, changements des couleurs 
+
+# Visualisation des données : utilisation de l'outils Open Refine 
 
 Manipulations : 
+
 - Ajout la durée de vie des arbres. 
-- Changement de nom de la colonne "Dominialité" par "Domaine Public".
+- Changement de nom de la colonne "Domanialité" par "Domaine Public".
+- Dans la colonne "Domanialité", mise en minuscule des termes "périphérique" et "cimetière".
+- Ajout des légendes pour les acronymes
 - Dans l'onglet Grouper et éditer j'ai tenté de voir si je pouvais regrouper des informations. Cependant Open Refine n'avait aucune proposition à me faire. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
