@@ -76,7 +76,7 @@ _(Dans l'ordre décroissant)_
 6. Couleur orange foncé : 11% = DASCO _(Direction des Affaires Scolaires Collège)_
 7. Couleur vert clair : 11.7% = DJS _(Direction de la Jeunesse et des Sports)_
 8. Couleur orange clair : 18% = DASES _(Direction de l'Action Sociale de l'Enfance et de la Santé )_
-9. Couleur corail : 20,1% = DAC 
+9. Couleur corail : 20,1% = DAC _(Direction des Affaires Culturelles)_
 
 
 Ma première remarque face à cette analyse est le manque de légende face à ces acronymes. Le lecteur doit faire la recherche ainsi ce n'est pas lisible et compréhensible rapidement. 
