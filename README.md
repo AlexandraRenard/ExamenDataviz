@@ -91,12 +91,26 @@ Manipulations faites : Chois des axes, changements des couleurs
 # Visualisation des données : utilisation de l'outils Open Refine 
 
 Manipulations : 
-
+- Téléchargement du fichier CSV 
+- Regroupement et fusion dans la colonne Libellé francais. 3 libellés ont pu etre regroupé.
+- Ajout de majuscules aux initiales dans la colones "Especes"
 - Ajout la durée de vie des arbres. 
 - Changement de nom de la colonne "Domanialité" par "Domaine Public".
 - Dans la colonne "Domanialité", mise en minuscule des termes "périphérique" et "cimetière".
-- Ajout des légendes pour les acronymes
+- Ajout des légendes pour les acronymes.
+- Mise en minuscules dans la colonne "Lieu/adresse"
+- Tri par ordre alphabétique dans la colonne "Arrondissement"
+- Ajout d'étoiles sur les arbres Remarquables 
 - Dans l'onglet Grouper et éditer j'ai tenté de voir si je pouvais regrouper des informations. Cependant Open Refine n'avait aucune proposition à me faire. 
+
+A travers, l'utilisation d'Open Refine, on peut voir qe ce tableau a des soucis de légendes. En effet, on n'avait déjà pu apercevoir que les acronymes n'étaient pas expliqués pour la 'Domanialité'. Là encore, dans la colonne 'Stade en développement', il y a inscrit des lettres 'M', 'JA','J' et 'A'. Cependant aucune légende ne fait office de sous-titres à ces lettres. On peut imaginer que ce sont des mois Mars, Janvier, Juin et Aout. Mais on a aucune certitude et la page de Paris [https://www.paris.fr/pages/l-arbre-a-paris-199] ne donne pas plus d'informations. 
+
+
+# Conclusion
+
+Pour conclure, l'utilisation de plusieurs outils et types d'affichages m'a permi de découvrir en profondeur les informtaions du jeux de données choisi. J'ai pu voir des informations intéressantes mais aussi des problèmes. 
+
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
